@@ -1,4 +1,4 @@
-package leetCode;
+package week2;
 
 public class Search_Insert_Position {
 	

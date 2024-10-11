@@ -1,4 +1,4 @@
-package leetCode;
+package week2;
 public class MissingNumber {
     public static int missingNumber(int []a, int N) {
         // Write your code here.
