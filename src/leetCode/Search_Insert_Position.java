@@ -31,3 +31,6 @@ public class Search_Insert_Position {
 			System.out.println(output);
 		}
 }
+
+
+//lc
