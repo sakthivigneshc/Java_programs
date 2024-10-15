@@ -1,6 +1,6 @@
 package part3;
 
-public class SortTheElement {
+public class CustomSortingInArray {
 public static void main(String[] args) {
 	
 	// Sort the element with out using Arrays.sort()
