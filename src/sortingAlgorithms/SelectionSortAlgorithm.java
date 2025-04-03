@@ -1,7 +1,5 @@
 package sortingAlgorithms;
 
-import java.util.*;
-
 public class SelectionSortAlgorithm {
 	
     static void selection_sort(int arr[], int n) {
