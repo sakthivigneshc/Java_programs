@@ -2,7 +2,7 @@ package part6;
 
 public class Find_Duplicate_Element {
     public static void main(String[] args) {
-        int[] numbers = {23, 234, 890, 80, 89, 8900};
+        int[] numbers = {23, 234, 8900, 80, 89, 8900};
         boolean found = false;
 
         for (int i = 0; i < numbers.length; i++) {
