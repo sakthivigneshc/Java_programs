@@ -33,7 +33,7 @@
 31. [CheckSpecificElement.java](https://github.com/sakthivigneshc/Java_programs/blob/main/src/arrays/CheckSpecificElement.java)  
 32. [CountSpecificElement.java](https://github.com/sakthivigneshc/Java_programs/blob/main/src/arrays/CountSpecificElement.java)  
 33. [LargestElement.java](https://github.com/sakthivigneshc/Java_programs/blob/main/src/arrays/LargestElement.java)  
-34. [RemoveDuplicateElement.java](https://github.com/sakthivigneshc/Java_programs/blob/main/src/arrays/RemoveDuplicateElement.java)  
+34. [RemoveDuplicateElement_In_Array.java](https://github.com/sakthivigneshc/Java_programs/blob/main/src/arrays/RemoveDuplicateElement.java)  
 35. [Reverse_an_Array.java](https://github.com/sakthivigneshc/Java_programs/blob/main/src/arrays/Reverse_an_Array.java)  
 36. [SecondLargest.java](https://github.com/sakthivigneshc/Java_programs/blob/main/src/arrays/SecondLargest.java)  
 37. [SortArray_Ascending_Order.java](https://github.com/sakthivigneshc/Java_programs/blob/main/src/arrays/SortArray_Ascending_Order.java)  
