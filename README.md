@@ -38,8 +38,8 @@
 36. [SecondLargest.java](https://github.com/sakthivigneshc/Java_programs/blob/main/src/arrays/SecondLargest.java)  
 37. [SortArray_Ascending_Order.java](https://github.com/sakthivigneshc/Java_programs/blob/main/src/arrays/SortArray_Ascending_Order.java)  
 38. [Sum_of_all_the_Elements.java](https://github.com/sakthivigneshc/Java_programs/blob/main/src/arrays/Sum_of_all_the_Elements.java)  
-39. [averageElements.java](https://github.com/sakthivigneshc/Java_programs/blob/main/src/arrays/averageElements.java)  
-40.[Find_Duplicate_Element_in_array(numbers)](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/Find_Duplicate_Element)
+39. [averageElements.java](https://github.com/sakthivigneshc/Java_programs/blob/main/src/arrays/averageElements.java) 
+40. [Find_Duplicate_Element_in_array numbers](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/Find_Duplicate_Element)
 
 ---
 
