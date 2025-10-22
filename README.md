@@ -40,6 +40,7 @@
 38. [Sum_of_all_the_Elements.java](https://github.com/sakthivigneshc/Java_programs/blob/main/src/arrays/Sum_of_all_the_Elements.java)  
 39. [averageElements.java](https://github.com/sakthivigneshc/Java_programs/blob/main/src/arrays/averageElements.java) 
 40. [Find_Duplicate_Element_in_array numbers](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/Find_Duplicate_Element)
+41. [MergeTwoSortedArrays](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/MergeTwoSortedArrays)
 
 ---
 
