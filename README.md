@@ -42,6 +42,7 @@
 40. [Find_Duplicate_Element_in_array numbers](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/Find_Duplicate_Element)
 41. [MergeTwoSortedArrays](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/MergeTwoSortedArrays)
 42. [RemoveSpecificElementInArray](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/RemoveSpecificElementInArray)
+43. [CountFrequencyOfEachElementInAnArray without using hashmap](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/CountFrequencyOfEachElementInAnArray)
 
 ---
 
