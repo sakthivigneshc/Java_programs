@@ -43,6 +43,7 @@
 41. [MergeTwoSortedArrays](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/MergeTwoSortedArrays)
 42. [RemoveSpecificElementInArray](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/RemoveSpecificElementInArray)
 43. [CountFrequencyOfEachElementInAnArray without using hashmap](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/CountFrequencyOfEachElementInAnArray)
+         <code><br/> [Using Hashmap](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/CountFrequencyOfEachElementInAnArrayUsingHM) </code>
 
 ---
 
