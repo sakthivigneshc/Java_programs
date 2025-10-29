@@ -1,0 +1,28 @@
+package part6;
+
+public class CountFrequencyOfEachElementInAnArray {
+	public static void main(String[] args) {
+		
+		int [] numbers = {23,67,23,45,45,67,67,23,45,23,23};
+		int[] freq = new int[numbers.length];
+		int visited = -1;
+		
+		for(int i=0;i<numbers.length;i++)
+		{
+			int count = 1;
+			for(int j=i+1;j<numbers.length;j++) {
+			     if(numbers[i]==numbers[j]) {
+			    	count++;
+			    	freq[j] = visited;
+			    }
+			}
+			if(freq[i] != visited) 
+				freq[i] = count;
+		}
+		for(int i=0; i<numbers.length;i++) {
+				System.out .println("Frequency of "+ numbers[i] + " : "+ freq[i]);
+		}
+		
+	}
+}
+
