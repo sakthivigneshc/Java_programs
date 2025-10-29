@@ -1,0 +1,25 @@
+package part6;
+
+import java.util.HashMap;
+
+public class CountFrequencyOfEachElementInAnArrayUsingHM {
+
+	public static void main(String[] args) {
+		int[] numbers1 = {23,58,5,58,59,58};
+		HashMap<Integer, Integer> frequencyresult = new HashMap<>();
+		for(int number : numbers1) {
+			if(frequencyresult.containsKey(number)) {
+				frequencyresult.put(number, frequencyresult.get(number)+1);
+			}
+			else {
+				frequencyresult.put(number,1);
+			}
+		}
+		
+		for(int key : frequencyresult.keySet()) {
+		    System.out.println(key + ": " + frequencyresult.get(key));
+		}
+		
+	}
+
+}
