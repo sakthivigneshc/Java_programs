@@ -1,0 +1,38 @@
+package javatpoint;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class IsogramExample {
+	static boolean isIsogram(String data) {
+		
+		data = data.toLowerCase().trim();
+		char dataArray[]= data.toCharArray();
+		
+		Set<Character> set = new HashSet<Character>();
+		
+		for(char a : dataArray ) {
+			
+		if(set.contains(a)) {
+			return true;
+		}
+		set.add(a);
+		}
+		return false;
+	}
+	
+	public static void main(String[] args) {
+		
+		String inputString = "machine";
+		boolean isogramValue = isIsogram(inputString);
+		if(isogramValue) {
+			System.out.println("Given String "+ inputString +" is not an Isogram.");
+		}
+		
+		else {
+			System.out.println("Given String "+ inputString +" is an Isogram.");
+		}
+			
+		
+	}
+}
