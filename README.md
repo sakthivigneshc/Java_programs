@@ -44,6 +44,7 @@
 42. [RemoveSpecificElementInArray](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/RemoveSpecificElementInArray)
 43. [CountFrequencyOfEachElementInAnArray without using hashmap](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/CountFrequencyOfEachElementInAnArray)
          <code><br/> [Using Hashmap](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/CountFrequencyOfEachElementInAnArrayUsingHM) </code>
+44. [IsogramStringExample](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/IsogramExample)
 
 ---
 
