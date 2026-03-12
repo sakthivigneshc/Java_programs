@@ -1,0 +1,15 @@
+package part6;
+public class RemoveDuplicatesInString {
+    public static void main(String[] args) {
+        
+        String value  = "aaabbbcccd";
+        String result = "";
+        
+        for(int i=0; i<value.length();i++){
+            if (!result.contains(String.valueOf(value.charAt(i)))) {
+                  result += value.charAt(i);
+}
+        }       
+        System.out.print(result);
+    }
+}
