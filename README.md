@@ -47,6 +47,7 @@
 44. [IsogramStringExample](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/IsogramExample)
 45. [ReverseEachSegmentUsingString](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/ReverseEachSegmentUsingString)'
 46. [RemoveDuplicatesInString](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/RemoveDuplicatesInString)
+47. [CharactersOccurencesWithOutUsingHashMap](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/CharactersOccurencesWithOutUsingHashMap)
 
 ---
 
