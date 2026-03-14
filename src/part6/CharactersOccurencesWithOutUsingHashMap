@@ -1,0 +1,27 @@
+package part6;
+
+public class CharactersOccurencesWithOutUsingHashMap {
+    public static void main(String[] args) {
+ 
+        String str = "automation";
+        char[] arr = str.toCharArray();
+ 
+        for (int i = 0; i < arr.length; i++) {
+ 
+            int count = 1;
+ 
+            // skip already counted characters
+            if (arr[i] == '0')
+                continue;  // it will go to the outer loop
+ 
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[i] == arr[j]) {
+                    count++;
+                    arr[j] = '0';   // mark as visited
+                }
+            }
+ 
+            System.out.println(arr[i] + " -> " + count);
+        }
+    }
+}
