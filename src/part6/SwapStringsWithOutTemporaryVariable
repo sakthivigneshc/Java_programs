@@ -1,0 +1,30 @@
+package part6;
+
+public class SwapStringsWithOutTemporaryVariable {
+	public static void main(String[] args) {
+		
+		String value1  = "Hello";
+		String value2   ="World!!!!";
+		
+		System.out.println("Values Before swapping...");
+		System.out.println("value1 : "+ value1);
+	  System.out.println("value2 : "+ value2);
+
+		value1 = value1+value2; //10
+		value2 =  value1.substring(0,value1.length() - value2.length()); // (0, 10 - 5) // (0,5)
+		/*
+		value1 = "HelloWorld!!!!"
+    value2 = "Hello"
+		*/
+
+		value1 = value1.substring(value2.length());
+		 
+		System.out.println("Values After swapping...");
+		System.out.println("value1 : "+ value1);
+	  System.out.println("value2 : "+ value2);
+		
+	 
+		
+	}
+
+}
