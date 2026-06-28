@@ -49,6 +49,7 @@
 46. [RemoveDuplicatesInString](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/RemoveDuplicatesInString)
 47. [CharactersOccurencesWithOutUsingHashMap](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/CharactersOccurencesWithOutUsingHashMap)
 48. [SwapStringsWithOutTemporaryVariable](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/SwapStringsWithOutTemporaryVariable)
+49. [49_Group Anagrams_LC](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/49_Group_Anagrams)
 ---
 
 # 🔃 Sorting Algorithms
