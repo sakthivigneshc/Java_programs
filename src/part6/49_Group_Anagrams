@@ -1,0 +1,51 @@
+class Solution {
+    public List<List<String>> groupAnagrams(String[] strs) {
+
+        List<List<String>> result = new ArrayList<>();
+
+        if (strs == null || strs.length == 0)
+            return new ArrayList<>();
+
+        Map<String, List<String>> map = new HashMap<>();
+
+        for (String str : strs) {
+            String key = getFrequencyString(str);
+
+            if (!map.containsKey(key))
+                map.put(key, new ArrayList<>());
+
+            map.get(key).add(str);
+        }
+        for (List<String> list : map.values()) {
+    result.add(list);
+}
+    return result;
+
+       // return new ArrayList<>(map.values());
+    }
+
+    private String getFrequencyString(String str) {
+        int[] freq = new int[26];
+
+        for (char c : str.toCharArray())
+            freq[c - 'a']++;
+
+        StringBuilder sb = new StringBuilder();
+        char c = 'a';
+        for (int i : freq) {
+            sb.append(c);
+            sb.append(i);
+            c++;
+        }
+
+        return sb.toString();
+    }
+}
+
+/*
+TIME  →  We READ    N words x K letters  =  O(N * K)
+SPACE →  We STORE   N words x K letters  =  O(N * K)
+*/
+
+ 
+    
