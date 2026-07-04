@@ -50,6 +50,7 @@
 47. [CharactersOccurencesWithOutUsingHashMap](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/CharactersOccurencesWithOutUsingHashMap)
 48. [SwapStringsWithOutTemporaryVariable](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/SwapStringsWithOutTemporaryVariable)
 49. [Group Anagrams_LC_49](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/49_Group_Anagrams)
+50. [AlternateOrderArray ClosingGapPattern](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/AlternateOrderArray)
 ---
 
 # 🔃 Sorting Algorithms
