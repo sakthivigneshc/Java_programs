@@ -18,3 +18,28 @@ public class AlternateOrderArray {
 
 //Output
 // 10 100 20 90 30 80 40 70 50 60 
+
+// -------------------------------------
+/*
+class ClosingGapPattern {
+    public static void main(String[] args) {
+    int input1 = 100;
+    int input2 = 10;
+    
+        while(input1>input2)
+        {
+            System.out.print(input1 + " " + input2 +" ");
+            input1 -= 10;
+            input2  += 10;
+            
+        }
+        
+    }
+}
+
+Output : 
+100 10 90 20 80 30 70 40 60 50 
+
+
+*/
+
