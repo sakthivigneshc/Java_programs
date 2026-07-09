@@ -51,6 +51,7 @@
 48. [SwapStringsWithOutTemporaryVariable](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/SwapStringsWithOutTemporaryVariable)
 49. [Group Anagrams_LC_49](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/49_Group_Anagrams)
 50. [AlternateOrderArray ClosingGapPattern](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/AlternateOrderArray)
+51. [SeparateEvenOddDigits](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/SeparateEvenOddDigits)
 ---
 
 # 🔃 Sorting Algorithms
