@@ -1,0 +1,27 @@
+public class SeparateEvenOddDigits {
+
+    public static void main(String[] args) {
+
+        int number = 132456789;
+
+        StringBuilder even = new StringBuilder();
+        StringBuilder odd = new StringBuilder();
+
+        int temp = Math.abs(number);
+
+        while (temp > 0) {
+            int lastDigit = temp % 10; // get last digit
+
+            if (lastDigit % 2 == 0) {
+                even.insert(0, lastDigit);
+            } else {
+                odd.insert(0, lastDigit);
+            }
+
+            temp = temp / 10; // remove last digit
+        }
+
+        System.out.println("Even : " + even);
+        System.out.println("Odd  : " + odd);
+    }
+}
