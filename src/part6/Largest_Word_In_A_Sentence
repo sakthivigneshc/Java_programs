@@ -1,0 +1,21 @@
+package part6;
+
+public class Largest_Word_In_A_Sentence{
+    public static void main(String[] args) {
+        String sentence = "India is my Country";
+        String[] senArr = sentence.split(" ");
+        String largest = senArr[0];
+
+        for (int i = 0; i < senArr.length; i++) {
+             if (senArr[i].length() > largest.length()) {
+            largest = senArr[i];
+    }
+}
+
+       System.out.println(largest);
+    }
+}
+
+
+//Output:
+// Country
