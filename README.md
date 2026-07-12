@@ -59,4 +59,5 @@
 
 1. [BubbleSort.java](https://github.com/sakthivigneshc/Java_programs/blob/main/src/sortingAlgorithms/BubbleSort.java)  
 2. [InsertionSort.java](https://github.com/sakthivigneshc/Java_programs/blob/main/src/sortingAlgorithms/InsertionSort.java)  
-3. [SelectionSortAlgorithm.java](https://github.com/sakthivigneshc/Java_programs/blob/main/src/sortingAlgorithms/SelectionSortAlgorithm.java)  
+3. [SelectionSortAlgorithm.java](https://github.com/sakthivigneshc/Java_programs/blob/main/src/sortingAlgorithms/SelectionSortAlgorithm.java)
+4. [MergeSortAlgorithm](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/MergeSortAlgorithm)
