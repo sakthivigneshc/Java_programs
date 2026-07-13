@@ -54,6 +54,7 @@
 51. [SeparateEvenOddDigits](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/SeparateEvenOddDigits)
 52. [Largest_Word_In_A_Sentence](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/Largest_Word_In_A_Sentence)
 53. [ConvertStringToIntegerWithOutParseIntMethod](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/ConvertStringToIntegerWithOutParseIntMethod)
+54. [Duplicate_Characters_In_A_String](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/Duplicate_Characters_In_A_String) <b> ->Using HashMap</b>
 ---
 
 # 🔃 Sorting Algorithms
