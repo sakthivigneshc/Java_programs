@@ -53,6 +53,7 @@
 50. [AlternateOrderArray ClosingGapPattern](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/AlternateOrderArray)
 51. [SeparateEvenOddDigits](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/SeparateEvenOddDigits)
 52. [Largest_Word_In_A_Sentence](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/Largest_Word_In_A_Sentence)
+53. [ConvertStringToIntegerWithOutParseIntMethod](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/ConvertStringToIntegerWithOutParseIntMethod)
 ---
 
 # 🔃 Sorting Algorithms
