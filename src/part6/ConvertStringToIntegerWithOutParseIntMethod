@@ -1,0 +1,16 @@
+package part6;
+
+public class ConvertStringToIntegerWithOutParseIntMethod {
+    public static void main(String[] args) {
+        String input = "234"; 
+        int numbers = 0;
+        
+        for(int i=0; i<input.length(); i++){
+            int conversion = input.charAt(i) - '0';
+            numbers = (numbers*10) + conversion;
+        }
+        
+        System.out.println(numbers+1);
+        
+    }
+}
