@@ -1,0 +1,31 @@
+public class CapitalizeSecondLetterOfEachword
+
+{
+
+public static void main(String[] args) {
+       String str = "India is one of the country in the world.";
+       StringBuilder sbr = new StringBuilder();
+           if (str == null || str.isEmpty())
+            {
+                System.out.print(str);
+                return;
+             }
+
+        String[] words = str.split(" ");
+        for (String word: words) {
+        if(word.length() < 2) {
+           sbr.append(word).append(" ");
+          } 
+        else {
+          sbr.append(word.substring(0,1))
+          .append(word.substring(1,2).toUpperCase())
+          .append(word.substring(2))
+          .append(" ");
+}
+}
+System.out.println(sbr);
+}
+}
+
+//Output 
+// INdia iS oNe oF tHe cOuntry iN tHe wOrld. 
