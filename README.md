@@ -56,6 +56,7 @@
 53. [ConvertStringToIntegerWithOutParseIntMethod](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/ConvertStringToIntegerWithOutParseIntMethod)
 54. [Duplicate_Characters_In_A_String](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/Duplicate_Characters_In_A_String) <b> ->Using HashMap</b>
 55. [CapitalizeSecondLetterOfEachword](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/CapitalizeSecondLetterOfEachword)
+56. [ToggleCaseOfEachCharacters](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/ToggleCaseOfEachCharacters) 
 ---
 
 # 🔃 Sorting Algorithms
