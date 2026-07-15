@@ -1,0 +1,28 @@
+package part6;
+
+public class ToggleCaseOfEachCharacters
+{
+public static void main (String[] args )
+{
+ String input = "Hi Everyone Hope you all are fine ";
+ StringBuilder result = new StringBuilder();
+ 
+char [] inputArray = input.toCharArray();
+for ( char ch : inputArray)
+{
+   if ( Character.isUpperCase(ch) )
+{
+         result.append(Character.toLowerCase(ch));
+}
+else if( Character.isLowerCase(ch) )
+{
+        result.append(Character.toUpperCase(ch));
+}
+
+else {
+    result.append(ch); // space or any other character → append as it is
+}
+}
+System.out.println(result);
+}
+}
