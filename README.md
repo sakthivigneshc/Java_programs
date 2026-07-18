@@ -58,6 +58,7 @@
 55. [CapitalizeSecondLetterOfEachword](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/CapitalizeSecondLetterOfEachword)
 56. [ToggleCaseOfEachCharacters](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/ToggleCaseOfEachCharacters)
 57. [PrimeNumberChecker](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/PrimeNumberChecker)
+    <br> &nbsp;&nbsp; > > [Print_List_Of_Prime_Numbers](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/List_Of_Prime_Numbers)
 ---
 
 # 🔃 Sorting Algorithms
