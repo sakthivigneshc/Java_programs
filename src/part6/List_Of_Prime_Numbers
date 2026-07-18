@@ -1,0 +1,32 @@
+package part6;
+
+public class List_Of_Prime_Numbers {
+
+    public static void main(String[] args) {
+
+        int input = 100;
+
+        for (int i = 2; i <= input; i++) {
+
+            boolean isPrime = true;
+
+            for (int j = 2; j * j <= i; j++) {
+
+                if (i % j == 0) {
+                    isPrime = false;
+                    break;
+                }
+            }
+
+            if (isPrime) {
+                System.out.print(i + " ");
+            }
+        }
+    }
+}
+
+/*
+
+Using j * j <= number is a good approach because it avoids calling the Math.sqrt() method in every loop iteration, making the code slightly more efficient. It also compares only integers, which is simpler and avoids working with floating-point values.
+
+*/
