@@ -1,0 +1,15 @@
+public class GCD_Of_Two_Numbers {
+    public static void main(String[] args) {
+           int number1 = 100;
+           int number2 = 80;
+           
+           while(number2!=0)
+             {
+                 int remainder = number1%number2;
+                  number1 = number2;
+                  number2 = remainder;
+             }
+             
+             System.out.print("GCD : "+ number1);
+    }
+}
