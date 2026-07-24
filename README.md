@@ -61,7 +61,9 @@
     <br> &nbsp;&nbsp; > > [Print_List_Of_Prime_Numbers](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/List_Of_Prime_Numbers)
     <br> &nbsp;&nbsp; > > [Sum_Of_Digits_Until_A_Single_Digit](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/Sum_Of_Digits_Until_A_Single_Digit)
 58. [GCD_Of_Two_Numbers](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/GCD_Of_Two_Numbers)
-59. [LCM_Of_Two_Numbers](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/LCM_Of_Two_Numbers) -> brute force approach 
+59. [LCM_Of_Two_Numbers](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/LCM_Of_Two_Numbers) -> brute force approach
+     <br> &nbsp; &nbsp; > >      [LCM_Of_Two_Numbers_Better_Approach](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/LCM_Of_Two_Numbers_BetterApproach)
+  
 ---
 
 # 🔃 Sorting Algorithms
