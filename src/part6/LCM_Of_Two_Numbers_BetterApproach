@@ -1,0 +1,23 @@
+package part6;
+
+public class LCM_Of_Two_Numbers_BetterApproach {
+
+public static int gcdValue(int number1, int number2)
+
+{
+while(number2 != 0)
+{
+int temp = number2;
+number2 =number1 % number2;
+number1 = temp;
+}
+return number1;
+}
+public static void main(String[] args) {
+
+int number1 = 18;
+int number2 = 48;
+int lcmValue = (number1*number2) /gcdValue (number1, number2);
+System.out.println("The LCM value is: " +lcmValue);
+}
+}
