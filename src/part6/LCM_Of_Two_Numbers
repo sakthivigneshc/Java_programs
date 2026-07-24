@@ -1,0 +1,22 @@
+package part6;
+public class LCM_Of_Two_Numbers {
+
+public static void main(String[] args) {
+
+int number1 = 18;
+int number2 = 48;
+int findGreater = number1 > number2? number1: number2;
+
+while(true) {
+
+    if(findGreater % number1 == 0 && findGreater%number2== 0){
+
+         System.out.println("The LCM of these two numbers: "+ findGreater);
+          break;
+
+}
+
+     findGreater++;
+}
+}
+}
