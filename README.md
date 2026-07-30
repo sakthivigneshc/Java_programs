@@ -64,6 +64,7 @@
 59. [LCM_Of_Two_Numbers](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/LCM_Of_Two_Numbers) -> brute force approach
      <br> &nbsp; &nbsp; > >      [LCM_Of_Two_Numbers_Better_Approach](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/LCM_Of_Two_Numbers_BetterApproach)
 60. [IntersectionValues_Of_Two_Arrays](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/IntersectionValues_Of_Two_Arrays)
+61. [Union_Of_Two_Arrays](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/Union_Of_Two_Arrays)
 ---
 
 # 🔃 Sorting Algorithms
