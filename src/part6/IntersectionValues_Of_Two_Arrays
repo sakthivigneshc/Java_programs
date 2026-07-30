@@ -1,0 +1,38 @@
+package part6;
+
+import java.util.*;
+public class IntersectionValues_Of_Two_Arrays {
+    
+public static void main ( String[] args )
+     {
+         int [] numbers1 = { 2,4,8,11};
+         int [] numbers2 = { 2,7,8,11,13};
+        HashMap<Integer,Integer> map = new HashMap<>();
+       List<Integer>  result = new ArrayList<>();
+
+    for ( int number : numbers1 )
+       { 
+             if(map.containsKey(number) )
+                  {
+                     map.put(number, map.get(number)+1);
+            
+                    }
+             else 
+                 {
+                   map.put(number,1);
+                }
+      }
+
+    for(int number  : numbers2 )
+         {
+               if(map.containsKey(number) && map.get(number) > 0 )
+                { 
+                result.add(number);
+               map.put(number, map.get(number)-1);
+                }
+        }
+
+System.out.println(result); 
+
+       }
+}
