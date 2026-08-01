@@ -1,0 +1,39 @@
+import java.util.*;
+//A leader is an element that is greater than all the elements to its right.
+public class Leaders_In_An_Array {
+    public static void main(String[] args) {
+            int [] numbers = {23,10,88,9,234,1};
+            int numbersLength = numbers.length;
+            List<Integer> result = new ArrayList<Integer>();
+            
+            for(int i=0; i< numbersLength; i++){
+                boolean flag = true;
+                for(int j=i+1; j< numbersLength; j++){
+                    if(numbers[j] > numbers[i])
+                        {
+                            flag = false;
+                            break;
+                        }
+                }
+                if(flag){
+                    result.add(numbers[i]);
+                    }
+                    
+            }
+          System.out.println(result);
+    }
+}
+
+
+/*
+
+if (isLeader) line only runs after the inner loop finishes, 
+    whether that's because it completed naturally (ran out of j values) or because it broke early. 
+    It always runs — but what matters is what isLeader holds at that point.
+    
+--> isLeader needs a fresh start for every new i, because each element's "is it a leader?" question 
+        is independent of the others. If declared inside the outer 
+        loop → resets to true every round → fair, clean check each time.
+
+
+*/
