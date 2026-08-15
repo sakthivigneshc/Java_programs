@@ -66,6 +66,7 @@
 60. [IntersectionValues_Of_Two_Arrays](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/IntersectionValues_Of_Two_Arrays)
 61. [Union_Of_Two_Arrays](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/Union_Of_Two_Arrays)
 62. [Leaders_In_An_Array](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/Leaders_In_An_Array)
+63. [Moves_Zeros_To_End_Using_Two_Pointer_Approach](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/MovesZerosToEndUsingTwoPointerApproach)
 ---
 
 # 🔃 Sorting Algorithms
