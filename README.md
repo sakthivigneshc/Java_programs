@@ -68,6 +68,7 @@
 62. [Leaders_In_An_Array](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/Leaders_In_An_Array)
 63. [Moves_Zeros_To_End_Using_Two_Pointer_Approach](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/MovesZerosToEndUsingTwoPointerApproach)
 64. [MajorityElementProgram](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/MajorityElementProgram)  >> Using Moore's Voting Algorithm
+      <br> &nbsp;&nbsp; > > [MajorityElementUsingHashMap](https://github.com/sakthivigneshc/Java_programs/blob/main/src/part6/MajorityElementUsingHashMap.java)
 ---
 
 # 🔃 Sorting Algorithms
