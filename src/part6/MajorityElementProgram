@@ -1,0 +1,73 @@
+package part6;
+
+import java.util.Scanner;
+/*
+Problem Statement: 
+Given an integer array nums of size n, return the majority element of the array.
+
+The majority element of an array is an element that appears more than n/2 times in the array. 
+The array is guaranteed to have a majority element.
+
+*/
+public class MajorityElementProgram {
+    public static int majorityElement(int[] nums) {
+        // Step 1: Find candidate using Moore's Voting Algorithm
+        int element = 0;
+        int count = 0;
+
+        for (int num : nums) {
+            if (count == 0) {
+                element = num;
+            }
+            if (num == element) {
+                count++;
+            } else if(num !=element ) {
+                count--;
+            }
+        }
+
+        // Step 2: Verify candidate (only needed if majority element is not guaranteed)
+        count = 0;
+        for (int num : nums) {
+            if (num == element) {
+                count++;
+            }
+        }
+
+       
+        // Otherwise, check if count > n/2
+        if (count > nums.length / 2) {
+            return element;
+        } else {
+            throw new IllegalArgumentException("No majority element found");
+        }
+    }
+    
+    /*
+    Input:
+        nums = [7, 0, 0, 1, 7, 7, 2, 7, 7]  
+    Output:
+         7  
+    */
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Enter size of array: ");
+        int n = sc.nextInt();
+        int[] nums = new int[n];
+
+        System.out.println("Enter array elements:");
+        for (int i = 0; i < n; i++) {
+            nums[i] = sc.nextInt();
+        }
+        try {
+            int result = majorityElement(nums);
+            System.out.println("Majority Element is: " + result);
+        } catch (IllegalArgumentException e) {
+            System.out.println(e.getMessage());
+        }
+
+        sc.close();
+    }
+}
