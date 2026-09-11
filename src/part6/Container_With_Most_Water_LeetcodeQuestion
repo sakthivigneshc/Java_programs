@@ -1,0 +1,43 @@
+package part 6;
+
+public class Container_With_Most_Water_LeetcodeQuestion{
+
+    public static int maxArea(int[] height) {
+
+        int left = 0;
+        int right = height.length - 1;
+        int max = -1;
+
+        while (left < right) {
+
+            int w = right - left;
+            int h = Math.min(height[left], height[right]);
+
+            max = Math.max(max, w * h);
+
+            // Move the pointer with smaller height
+            if (height[left] < height[right]) {
+                left++;
+            } else {
+                right--;
+            }
+        }
+
+        return max;
+    }
+
+    public static void main(String[] args) {
+
+        int[] height = {1, 8, 6, 2, 5, 4, 8, 3, 7};
+
+        int result = maxArea(height);
+
+      //  Input: [1, 8, 6, 2, 5, 4, 8, 3, 7]
+      //  Output: 49
+        System.out.println("Output: " + result);
+    }
+}
+
+
+// time complexity - O(n)  left/right pointers move through the array
+// Space complexity -O(1)   only a few variables are used.
