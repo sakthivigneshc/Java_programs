@@ -1,0 +1,43 @@
+package part6;
+
+import java.util.*;
+
+public class TaskScheduler {
+
+    public static int leastInterval(int[] tasks, int k) {
+
+        HashMap<Integer, Integer> map = new HashMap<>();
+
+        for (int task : tasks) {
+            map.put(task, map.getOrDefault(task, 0) + 1);
+        }
+
+        int maxFreq = 0;
+
+        for (int freq : map.values()) {
+            maxFreq = Math.max(maxFreq, freq);
+        }
+
+        int countMaxFreq = 0;
+
+        for (int freq : map.values()) {
+            if (freq == maxFreq) {
+                countMaxFreq++;
+            }
+        }
+
+        int result = (maxFreq - 1) * (k + 1) + countMaxFreq;
+
+        return Math.max(result, tasks.length);
+    }
+
+    public static void main(String[] args) {
+
+        int[] tasks = {1, 1, 1, 2, 2, 2};
+        int k = 2;
+
+        int result = leastInterval(tasks, k);
+
+        System.out.println("Output: " + result);
+    }
+}
